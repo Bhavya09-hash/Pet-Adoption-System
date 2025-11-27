@@ -1,5 +1,7 @@
 <h1 align="center">🐾 Pet Adoption System</h1>
-
+<p align="center">
+  <img src=Banner.png" alt="Pet Adoption System" width="100%" />
+</p>
 <p align="center">
   A clean and responsive <b>Frontend Pet Adoption System</b> built using HTML, CSS, and JavaScript.
   <br>
