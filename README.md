@@ -18,9 +18,9 @@
 
 ## 📸 Screenshots
 
-| Home Page | Pet Listing | Pet Details |
+| Home Page | Pet Listing | Pet Form |
 |-----------|-------------|-------------|
-| ![Home](assets/screenshots/home.png) | ![Listing](assets/screenshots/listing.png) | ![Details](assets/screenshots/details.png) |
+| ![Home](assets/Home.png) | ![Listing](assets/Listing.png) | ![Details](assets/Form.png) |
 
 *(Add your own screenshots inside `/assets/screenshots/` folder.)*
 
