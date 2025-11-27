@@ -55,30 +55,17 @@
 ## 📂 Folder Structure
 
 PET-ADOPTION-SYSTEM/
-├── backend/
-│   ├── Controllers/
-│   │   ├── AdminController.js
-│   │   ├── AdoptFormController.js
-│   │   └── PetController.js
-│   ├── Middleware/
-│   │   └── authMiddleware.js
-│   ├── Model/
-│   │   ├── AdoptFormModel.js
-│   │   ├── PetModel.js
-│   │   └── UserModel.js
-│   ├── Routes/
-│   │   ├── AdminRoute.js
-│   │   ├── AdoptFormRoute.js
-│   │   ├── PetRoute.js
-│   │   └── UserRoute.js
-│   ├── uploads/
-│   ├── server.js
-│   ├── package.json
-│   └── .env
+`├── backend/```
+`│   ├── Controllers/```
+`│   ├── Middleware/```
+`│   ├── Model/```
+`│   ├── Routes/```
+`│   ├── uploads/```
+`│   ├── server.js```
+`│   └── package.json```
 │
 ├── frontend/
 │   ├── public/
-│   │   └── index.html
 │   ├── src/
 │   │   ├── assets/
 │   │   ├── Components/
@@ -91,14 +78,11 @@ PET-ADOPTION-SYSTEM/
 │   │   │   ├── Navbar/
 │   │   │   ├── Pets/
 │   │   │   └── Services/
-│   │   ├── ProtectedRoute.jsx
 │   │   ├── App.jsx
 │   │   ├── App.css
-│   │   ├── main.jsx
-│   │   └── index.css
+│   │   └── main.jsx
 │   ├── vite.config.js
-│   ├── package.json
-│   └── .gitignore
+│   └── package.json
 │
 ├── Runcommand
 └── README.md
