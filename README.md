@@ -53,16 +53,16 @@
 ---
 
 ## 📂 Folder Structure
-
+```text
 PET-ADOPTION-SYSTEM/
-`├── backend/```
-`│   ├── Controllers/```
-`│   ├── Middleware/```
-`│   ├── Model/```
-`│   ├── Routes/```
-`│   ├── uploads/```
-`│   ├── server.js```
-`│   └── package.json```
+├── backend/
+│   ├── Controllers/
+│   ├── Middleware/
+│   ├── Model/
+│   ├── Routes/
+│   ├── uploads/
+│   ├── server.js
+│   └── package.json
 │
 ├── frontend/
 │   ├── public/
@@ -86,8 +86,7 @@ PET-ADOPTION-SYSTEM/
 │
 ├── Runcommand
 └── README.md
-
-
+```
 
 
 
