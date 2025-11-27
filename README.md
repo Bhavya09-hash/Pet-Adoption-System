@@ -12,7 +12,6 @@
 
 ## 🚀 Live Demo  
 👉 **[Click here to view the live project](#)**  
-*(Add your live link here — I can help you deploy on Netlify/Vercel if needed.)*
 
 ---
 
@@ -22,7 +21,6 @@
 |-----------|-------------|-------------|
 | ![Home](assets/Home.png) | ![Listing](assets/Listing.png) | ![Details](assets/Form.png) |
 
-*(Add your own screenshots inside `/assets/screenshots/` folder.)*
 
 ---
 
