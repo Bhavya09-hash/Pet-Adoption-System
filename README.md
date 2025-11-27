@@ -53,13 +53,13 @@
 ---
 
 ## 📂 Folder Structure
+
 PET-ADOPTION-SYSTEM/
-.
 ├── backend/
 │   ├── Controllers/
 │   │   ├── AdminController.js
 │   │   ├── AdoptFormController.js
-│   │   ├── PetController.js
+│   │   └── PetController.js
 │   ├── Middleware/
 │   │   └── authMiddleware.js
 │   ├── Model/
@@ -71,72 +71,39 @@ PET-ADOPTION-SYSTEM/
 │   │   ├── AdoptFormRoute.js
 │   │   ├── PetRoute.js
 │   │   └── UserRoute.js
-│   ├── uploads/ # Stores uploaded pet images
-│   ├── .env
+│   ├── uploads/
+│   ├── server.js
 │   ├── package.json
-│   └── server.js # Express server entry
+│   └── .env
+│
 ├── frontend/
 │   ├── public/
 │   │   └── index.html
 │   ├── src/
-│   │   ├── assets/ # Static images & icons
+│   │   ├── assets/
 │   │   ├── Components/
 │   │   │   ├── AdminPanel/
-│   │   │   │   ├── AdminLogin.jsx
-│   │   │   │   ├── AdminNavbar.jsx
-│   │   │   │   ├── AdminPanel.jsx
-│   │   │   │   ├── ApprovedRequests.jsx
-│   │   │   │   ├── AdoptingRequests.jsx
-│   │   │   │   ├── AdoptedHistory.jsx
-│   │   │   │   └── PostingPets.jsx
+│   │   │   ├── AdoptForm/
 │   │   │   ├── Auth/
-│   │   │   │   ├── Login.jsx
-│   │   │   │   └── SignUp.jsx
 │   │   │   ├── Contact/
-│   │   │   │   └── Contact.jsx
 │   │   │   ├── Footer/
-│   │   │   │   └── Footer.jsx
 │   │   │   ├── Home/
-│   │   │   │   ├── Card.jsx
-│   │   │   │   ├── BottomContainer.jsx
-│   │   │   │   ├── MiddleCard.jsx
-│   │   │   │   └── HomeContainer.jsx
 │   │   │   ├── Navbar/
-│   │   │   │   └── Navbar.jsx
 │   │   │   ├── Pets/
-│   │   │   │   ├── Pets.jsx
-│   │   │   │   └── PetsViewer.jsx
-│   │   │   ├── Services/
-│   │   │   │   └── Services.jsx
-│   │   │   ├── AdoptForm.jsx
-│   │   │   ├── AdoptCard.jsx
-│   │   │   ├── AdoptSection.jsx
-│   │   │   ├── CardForm.jsx
-│   │   │   ├── PostPetSection.jsx
-│   │   │   └── ProtectedRoute.jsx
-│   │   ├── AdoptForm.css
-│   │   ├── Auth.css
-│   │   ├── Contact.css
-│   │   ├── Footer.css
-│   │   ├── HomeContainer.css
-│   │   ├── Pets.css
-│   │   ├── Service.css
-│   │   ├── Admin.css
-│   │   ├── Navbar.css
-│   │   ├── Card.css
-│   │   ├── BottomContainer.css
-│   │   ├── MiddleCard.css
-│   │   ├── AdoptSection.css
-│   │   ├── PostPetSection.css
-│   │   ├── App.css
-│   │   ├── index.css
+│   │   │   └── Services/
+│   │   ├── ProtectedRoute.jsx
 │   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── .gitignore
+│   │   ├── App.css
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── vite.config.js
 │   ├── package.json
-│   └── vite.config.js
-├── README.md
-└── Runcommand
+│   └── .gitignore
+│
+├── Runcommand
+└── README.md
+
+
 
 
 
