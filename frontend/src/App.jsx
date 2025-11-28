@@ -8,7 +8,7 @@ import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
 import Auth from './Components/Auth/Auth';
 import Services from './Components/Services/Services';
-import AdminLogin from './Components/AdminPanel/AdminLOgin';
+import AdminLogin from './Components/AdminPanel/AdminLogin';
 import Pets from './Components/Pets/Pets';
 import ProtectedRoute  from './Components/ProtectedRoute';
 import Contact from './Components/Contact/Contact';
