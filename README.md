@@ -8,10 +8,6 @@
   Helping users explore pets, view details, and request adoption with a smooth UI experience.
 </p>
 
----
-
-## 🚀 Live Demo  
-👉 **[Click here to view the live project](#)**  
 
 ---
 
