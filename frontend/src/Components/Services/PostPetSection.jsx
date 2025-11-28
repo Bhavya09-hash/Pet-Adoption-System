@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import postPet from "./images/postPet.png";
+import postPet from "./Images/postPet.png";
 import './PostPetSection.css'
 
 const PostPetSection = () => {
