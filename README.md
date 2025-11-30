@@ -26,10 +26,9 @@
 - 📱 Fully responsive (Mobile + Tablet + Desktop)  
 - 🐶 Dynamic pet cards with images  
 - 🔍 Search & filter pets  
-- 📄 Dedicated pet info page  
+- 📄 Dedicated pet info   
 - ❤️ Adoption request modal / form  
 - 🎨 Smooth UI/UX with structured layout  
-- ⚡ No backend required — pure frontend implementation  
 
 ---
 
