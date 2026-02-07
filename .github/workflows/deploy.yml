@@ -1,41 +1,43 @@
-name: Deploy React App to GitHub Pages
+name: Deploy Frontend to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # deploy when you push to main branch
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      # 1. Checkout the repository
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      # 2. Setup Node.js
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '20'  # Vite requires Node 20+
-          cache: 'npm'
+          node-version: 20
 
-      # 3. Install dependencies inside frontend
-      - name: Install dependencies
-        working-directory: ./frontend
-        run: npm install
+      - name: Install dependencies and build
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run build
 
-      # 4. Build the Vite app
-      - name: Build app
-        working-directory: ./frontend
-        run: npm run build
+      - name: Upload artifact for Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
 
-      # 5. Deploy to GitHub Pages
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./frontend/dist
-          force_orphan: true   # avoids long git history issues
-          keep_files: false
+        uses: actions/deploy-pages@v4
