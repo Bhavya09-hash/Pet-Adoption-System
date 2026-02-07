@@ -3,12 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from './Components/Navbar/Navbar'
-import Home from './Components/Home/home'
-import Footer from './Components/Footer/Footer'
+import Navbar from './Components/Navbar/Navbar';
+import Home from './Components/Home/Home';
+import Footer from './Components/Footer/Footer';
 import Auth from './Components/Auth/Auth';
 import Services from './Components/Services/Services';
-import AdminLogin from './Components/AdminPanel/AdminLOgin';
+import AdminLogin from './Components/AdminPanel/AdminLogin';
 import Pets from './Components/Pets/Pets';
 import ProtectedRoute  from './Components/ProtectedRoute';
 import Contact from './Components/Contact/Contact';
